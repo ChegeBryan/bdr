@@ -20,6 +20,7 @@ if (isset($_SESSION["school_logged_In"]) || $_SESSION["school_logged_in"] !== tr
 
 
     <div class="container py-3" style="width: 1024px">
+      <h4 class="text-center text-secondary">User Search</h4>
       <div class="row">
         <div class="col-sm-4">
           <form>
