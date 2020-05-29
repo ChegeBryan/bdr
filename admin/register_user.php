@@ -108,7 +108,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
           <div class="form-group">
             <label for="health">Known Health Conditions</label>
             <textarea class="form-control" rows="3" id="health" name="health" placeholder="Known health conditions"
-                      value="<?php echo $health; ?>" required></textarea>
+                      required><?php echo $health; ?></textarea>
           </div>
           <div class="custom-control custom-radio custom-control-inline">
             <input type="radio" id="male" name="gender" class="custom-control-input" value="male" checked>
