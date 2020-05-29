@@ -110,6 +110,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             <textarea class="form-control overflow-hidden" rows="3" id="health" name="health" style="resize: none;"
                       placeholder="Known health conditions" required><?php echo $health; ?></textarea>
           </div>
+          <p class="mb-0">Gender</p>
           <div class="custom-control custom-radio custom-control-inline">
             <input type="radio" id="male" name="gender" class="custom-control-input" value="male" checked>
             <label class="custom-control-label" for="male">Male</label>
